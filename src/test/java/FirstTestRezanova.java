@@ -23,15 +23,15 @@ public class FirstTestRezanova {
 
     @Test(description = "Первый тест")
     void firstTest() {
-        int a = 10;
-        int b = 20;
-        int c = 25;
-        int d = 25;
+        int a = 12;
+        int b = 25;
+        int c = 40;
+        int d = 21;
 
             System.out.println("a + b  = " + (a + b));
-            System.out.println("a - b  = " + (a - b));
-            System.out.println("a * b  = " + (a * b));
-            System.out.println("b / a  = " + (b / a));
+            System.out.println("a - c  = " + (a - b));
+            System.out.println("c * d  = " + (a * b));
+            System.out.println("b / d  = " + (b / a));
             System.out.println("b % a  = " + (b % a));
             System.out.println("c % a  = " + (c % a));
             System.out.println("a++ = " + (a++));
