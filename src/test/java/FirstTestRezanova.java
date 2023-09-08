@@ -42,6 +42,7 @@ public class FirstTestRezanova {
             System.out.println("a = " + (a));
             System.out.println("a -= b = " + (a -= b));
             System.out.println("a = " + (a));
+            Assert.assertEquals(12, a, "Упс, что-то пошло не так!");
     }
 
     @Test(description = "Второй тест")
